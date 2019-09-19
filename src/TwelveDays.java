@@ -5,33 +5,33 @@ public class TwelveDays {
 		// TODO Auto-generated method stub
 		
 		System.out.print("On the first");
-		Christmas();
-		Tree();
+		christmas();
+		tree();
 		System.out.print("On the second");
-		Christmas();
-		LastLines();
+		christmas();
+		lastLines();
 		System.out.print("On the twelfth");
-		Christmas();
-		LastVirse();
-		LastLines();
+		christmas();
+		lastVirse();
+		lastLines();
 
 	}
 		
-	public static void Christmas() {
+	public static void christmas() {
 		System.out.println(" day of Christmas,");
 		System.out.println("my true love sent to me");
 		
 	}
-   public static void Tree() {
+   public static void tree() {
 		System.out.println("a partridge in a pear tree.");
 		System.out.println(" ");
    }
-   public static void Turtle() {
+   public static void turtle() {
 		System.out.println("two turtle doves, and ");
 		
 		
    }
-   public static void LastVirse() {
+   public static void lastVirse() {
    System.out.println("Twelve drummers drumming,");	
 	System.out.println("eleven pipers piping,");	
 	System.out.println("ten lords a-leaping,");	
@@ -43,8 +43,8 @@ public class TwelveDays {
 	System.out.println("four calling birds,");	
 	System.out.println("three French hens, ");	
    }
-   public static void LastLines() {
-   Turtle();
-   Tree();
+   public static void lastLines() {
+   turtle();
+   tree();
    }
 }
